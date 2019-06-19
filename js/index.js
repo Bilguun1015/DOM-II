@@ -11,7 +11,7 @@ destImg.addEventListener('mouseout', function(event){
 
 const headerTop = document.querySelector('header.main-navigation');
 
-document.addEventListener('scroll', function(event){
+document.addEventListener('wheel', function(event){
     TweenMax.to('header.main-navigation', 1, {opacity: '0.6',filter: 'alpha(opacity=60)',borderColor: 'none'})
 })
 
